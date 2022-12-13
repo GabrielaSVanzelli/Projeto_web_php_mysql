@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: hsl(249, 63%, 6%);
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+main {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: -10%;
+}
+
+main h1 {
+    color: rgb(81, 109, 187);
+    font-size: 2rem;
+    margin-top: 20%;
+    margin-bottom: 9%;
+    text-align: center;
+    -webkit-text-stroke: 0.5px #bac8f0
+}
+
+main h2 {
+    color: black;
+    font-size: 100%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+    box-sizing: 20px;
+}
+
+.box{
+    margin-top: -3%;
+    width: 78%;
+	height: 20%;
+    border-radius: 1.5rem;
+	border: 4px solid rgb(81, 109, 187);
+	text-align: center;
+    background-color: #bac8f0;
+}
+
+table td .one{
+    margin-top: 150%;
+    margin-right: 60px;
+    border:1px solid; 
+    padding: 8px 10px; 
+    vertical-align: middle; 
+    background:rgb(81, 109, 187);
+    color: #bac8f0;
+    border-radius:6px; 
+    font-size: 20px; 
+    font-family:helvetica, serif;
+    text-decoration:none;
+    transition: all .3s ease-in-out;
+}
+
+table td .one:hover {
+    background: #c3d1f7;
+}
+
+
+table td .two{
+    margin-top: 155%;
+    margin-left: 60px;
+    border:1px solid; 
+    padding: 8px 10px; 
+    vertical-align: middle; 
+    background:rgb(81, 109, 187);
+    color: #bac8f0;
+    border-radius:6px; 
+    font-size: 20px; 
+    font-family:helvetica, serif;
+    text-decoration:none;
+    transition: all .3s ease-in-out;
+}
+
+table td .two:hover {
+    background: #c3d1f7;
+}
+
+section.images {
+    width: 50vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex end;
+    padding: 4rem;
+}
+
+section.images img {
+    width: 90%;
+}
+
+section.images .circle {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background: linear-gradient(0deg, #c3d1f7, rgb(62, 95, 185));
+    clip-path: circle(45% at right 90%);
+    z-index: -1;
+}
